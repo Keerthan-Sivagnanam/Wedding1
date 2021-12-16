@@ -114,9 +114,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="PackageNo1.aspx" />
-    <Content Include="PackageNo2.aspx" />
-    <Content Include="PackageNo3.aspx" />
+    <Content Include="Details.aspx" />
+    <Content Include="SelectDetails.aspx" />
     <Content Include="wedPackages.aspx" />
     <Content Include="webEvents.jpg" />
     <Content Include="wedBack.jfif" />
@@ -138,7 +137,6 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="RegisterForm.aspx" />
-    <Content Include="WebForm1.aspx" />
     <Content Include="weddingbackhd.jpg" />
     <Content Include="wedding_img.jpg" />
     <Content Include="wedVenue.jpg" />
@@ -212,26 +210,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="PackageNo1.aspx.cs">
-      <DependentUpon>PackageNo1.aspx</DependentUpon>
+    <Compile Include="Details.aspx.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PackageNo1.aspx.designer.cs">
-      <DependentUpon>PackageNo1.aspx</DependentUpon>
+    <Compile Include="Details.aspx.designer.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PackageNo2.aspx.cs">
-      <DependentUpon>PackageNo2.aspx</DependentUpon>
+    <Compile Include="SelectDetails.aspx.cs">
+      <DependentUpon>SelectDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PackageNo2.aspx.designer.cs">
-      <DependentUpon>PackageNo2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PackageNo3.aspx.cs">
-      <DependentUpon>PackageNo3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PackageNo3.aspx.designer.cs">
-      <DependentUpon>PackageNo3.aspx</DependentUpon>
+    <Compile Include="SelectDetails.aspx.designer.cs">
+      <DependentUpon>SelectDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="wedPackages.aspx.cs">
       <DependentUpon>wedPackages.aspx</DependentUpon>
@@ -268,13 +259,6 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

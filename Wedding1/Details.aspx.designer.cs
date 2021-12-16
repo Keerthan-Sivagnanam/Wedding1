@@ -11,7 +11,7 @@ namespace Wedding1
 {
 
 
-    public partial class PackageNo2
+    public partial class PackageNo1
     {
 
         /// <summary>
@@ -33,6 +33,15 @@ namespace Wedding1
         protected global::System.Web.UI.WebControls.ImageButton ImgVenue;
 
         /// <summary>
+        /// lblVenue1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblVenue1;
+
+        /// <summary>
         /// lblVenue control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace Wedding1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImgFood;
+
+        /// <summary>
+        /// lblFood1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFood1;
 
         /// <summary>
         /// lblFood control.
@@ -69,6 +87,15 @@ namespace Wedding1
         protected global::System.Web.UI.WebControls.ImageButton ImgEvents;
 
         /// <summary>
+        /// lblEvents1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblEvents1;
+
+        /// <summary>
         /// lblEvents control.
         /// </summary>
         /// <remarks>
@@ -85,6 +112,15 @@ namespace Wedding1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImgBack;
+
+        /// <summary>
+        /// lblBack1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblBack1;
 
         /// <summary>
         /// lblBack control.
@@ -105,6 +141,15 @@ namespace Wedding1
         protected global::System.Web.UI.WebControls.ImageButton ImgGift;
 
         /// <summary>
+        /// lblGift1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblGift1;
+
+        /// <summary>
         /// lblGift control.
         /// </summary>
         /// <remarks>
@@ -114,12 +159,12 @@ namespace Wedding1
         protected global::System.Web.UI.WebControls.Label lblGift;
 
         /// <summary>
-        /// btnReg control.
+        /// btnChoose control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnReg;
+        protected global::System.Web.UI.WebControls.Button btnChoose;
     }
 }

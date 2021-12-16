@@ -11,7 +11,7 @@ namespace Wedding1
 {
 
 
-    public partial class Packages
+    public partial class SelectDetails
     {
 
         /// <summary>
@@ -24,57 +24,48 @@ namespace Wedding1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Btnpack1 control.
+        /// CheckBoxList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btnpack1;
+        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
 
         /// <summary>
-        /// lblPack1 control.
+        /// lbmsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPack1;
+        protected global::System.Web.UI.WebControls.Label lbmsg;
 
         /// <summary>
-        /// Btnpack2 control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btnpack2;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// lblPack2 control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPack2;
+        protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// Btnpack3 control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btnpack3;
-
-        /// <summary>
-        /// lblPack3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPack3;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }

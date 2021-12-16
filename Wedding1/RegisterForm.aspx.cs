@@ -14,22 +14,15 @@ namespace Wedding1
     {
 
         protected void Page_Load(object sender, EventArgs e)
-        {
+        { }
 
-        }
-
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
             SqlConnection conn = new SqlConnection(@"Data Source=KEERTHU\SQLEXPRESS; Initial Catalog = wedding;Integrated Security=True");
-          
-            SqlCommand cmd = new SqlCommand("sample", conn);
+            SqlCommand cmd = new SqlCommand("RegisterTab", conn);
             conn.Open();
-            string s = "insert into sample(Full_name,password,confirm_password,age) values ( '" + TxtName.Text + "','" + Txtpassword.Text + "','" + Txtconfirm.Text + "','" + Txtage.Text + "' ) ";
+            string s = "insert into RegisterTab(Full_name,password,confirm_password,age,Mobile_no) values ( '" + TxtName.Text + "','" + Txtpassword.Text + "','" + Txtconfirm.Text + "','" + Txtage.Text + "','"+ TxtMob.Text + "' ) ";
             cmd = new SqlCommand(s, conn);
             cmd.CommandType = CommandType.Text;
             try
@@ -53,18 +46,7 @@ namespace Wedding1
             {
                 conn.Close();
             }
-            //void ClearData()
-            //{
-            //    TxtName.Text = "";
-            //    Txtpassword.Text = "";
-            //    Txtconfirm.Text = "";
-            //    Txtage.Text = "";
-            //}
-               
         }
-        protected void Button1_Click1(object sender, EventArgs e)
-        {
-            Response.Write("<script>alert('hello')</script>");
-        }
+       
     }
 }

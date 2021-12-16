@@ -58,7 +58,7 @@
             <tr>
                 <td class="auto-style3">FullName</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="TxtName" runat="server" OnTextChanged="TextBox1_TextChanged" Width="352px"></asp:TextBox>
+                    <asp:TextBox ID="TxtName" runat="server"  Width="352px"></asp:TextBox>
                 </td>
                 <td class="auto-style2">
                     <asp:RequiredFieldValidator ID="RFVname" runat="server" ControlToValidate="TxtName" ErrorMessage="Please enter Name" ForeColor="#FF3300"></asp:RequiredFieldValidator>
@@ -91,10 +91,17 @@
                     <asp:RequiredFieldValidator ID="RFVage" runat="server" ControlToValidate="Txtage" ErrorMessage="enter the age" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                 </td>
             </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td>
+                    <asp:TextBox ID="TxtMob" runat="server" Width="352px"></asp:TextBox>
+                </td>
+                <td></td>
+            </tr>
         </table>
 &nbsp;&nbsp;
         <div class="auto-style11">
-            <asp:Button ID="btnLogin" runat="server" OnClick="Button1_Click" Text="Login" />
+            <asp:Button ID="btnReg" runat="server" OnClick="Button1_Click" Text="submit" />
             <br />
             
             <br />

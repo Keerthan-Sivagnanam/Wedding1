@@ -52,9 +52,9 @@ namespace Wedding1
                 "No matter how big or how small there are numerous ideas to execute.";
         }
 
-        protected void btnReg_Click(object sender, EventArgs e)
+        protected void btnchoose_Click(object sender, EventArgs e)
         {
-            Server.Transfer("RegisterForm.aspx");
+            Server.Transfer("SelectDetails.aspx");
         }
     }
 }
